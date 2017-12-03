@@ -44,7 +44,7 @@ exports.config = {
 
    		 maxInstances: 1,
         browserName: "chrome",
-        host: 'http://10.102.1.143',
+        host: 'http://localhost',
         port: 5555,
 
         specs: [
@@ -56,7 +56,7 @@ exports.config = {
         // 5 instance gets started at a time.
          maxInstances: 1,
         browserName: 'chrome',
-        host: 'http://10.102.1.143',
+        host: 'http://localhost',
         port:5556,
         specs: [
             './webtest/**/*.spec.js'
@@ -66,7 +66,7 @@ exports.config = {
 
     	  maxInstances: 1,
         browserName: 'chrome',
-        host: 'http://10.102.1.143',
+        host: 'http://localhost',
         port:5557,
         specs: [
             './webtestB/**/*.spec.js'
