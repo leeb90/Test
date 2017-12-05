@@ -24,52 +24,40 @@ var month = d.getMonth();
 var year = d.getFullYear();
 
 
-var hostTier1 = ["https://172.16.208.51/index.cfm?", "https://172.16.208.52/index.cfm?", "https://172.16.208.53/index.cfm?",
-    "https://172.16.208.54/index.cfm?"
+var hostTier1 = [//"Array of Hosts Tier 1"
 ];
 
-var hostTier2 = ["https://172.16.208.61/index.cfm?", "https://172.16.208.62/index.cfm?", "https://172.16.208.63/index.cfm?",
-    "https://172.16.208.64/index.cfm?"
+var hostTier2 = [//"Array of Hosts Tier 2"
 ];
 
-var hostTier3 = ["https://172.16.208.71/index.cfm?", "https://172.16.208.72/index.cfm?", "https://172.16.208.73/index.cfm?",
-    "https://172.16.208.74/index.cfm?"
+var hostTier3 = [//"Array of Hosts Tier 3"
 ];
 
-var hostTier4 = ["https://172.16.208.102/index.cfm?", "https://172.16.208.105/index.cfm?", "https://172.16.208.106/index.cfm?",
-    "https://172.16.208.107/index.cfm?"
+var hostTier4 = [//"Array of Hosts Tier 4"
 ];
 
-var hostTier5 = ["https://172.16.208.112/index.cfm?", "https://172.16.208.113/index.cfm?", "https://172.16.208.115/index.cfm?",
-    "https://172.16.208.134/index.cfm?", "https://172.16.208.135/index.cfm?"
+var hostTier5 = [//"Array of Hosts Tier 5"
 ];
 
-var hostTier6 = ["https://172.16.208.101/index.cfm?", "https://172.16.208.109/index.cfm?", "https://172.16.208.110/index.cfm",
-    "https://172.16.208.111/index.cfm?"
+var hostTier6 = [//"Array of Hosts Tier 6"
 ];
 
-var hostTier7 = ["https://172.16.208.116/index.cfm?", "https://172.16.208.117/index.cfm?", "https://172.16.208.118/index.cfm?",
-    "https://172.16.208.119/index.cfm?"
+var hostTier7 = [//"Array of Hosts Tier 7"
 ];
 
-var hostTier8 = ["https://172.16.208.81/index.cfm?", "https://172.16.208.82/index.cfm?", "https://172.16.208.83/index.cfm?",
-    "https://172.16.208.84/index.cfm"
+var hostTier8 = [//"Array of Hosts Tier 8"
 ];
 
-var hostTierV1 = ["https://172.20.208.51/index.cfm?", "https://172.20.208.52/index.cfm?", "https://172.20.208.53/index.cfm?",
-    "https://172.20.208.54/index.cfm"
+var hostTierV1 = [//"Array of Hosts Tier 1 V"
 ];
 
-var hostTierV2 = ["https://172.20.208.61/index.cfm?", "https://172.20.208.62/index.cfm?", "https://172.20.208.63/index.cfm?",
-    "https://172.20.208.64/index.cfm"
+var hostTierV2 = [//"Array of Hosts Tier 2 V"
 ];
 
-var hostTierV3 = ["https://172.20.208.71/index.cfm?", "https://172.20.208.72/index.cfm?", "https://172.20.208.73/index.cfm?",
-    "https://172.20.208.74/index.cfm"
+var hostTierV3 = [//"Array of Hosts Tier 3 V"
 ];
 
-var hostTierV4 = ["https://172.20.208.81/index.cfm?", "https://172.20.208.82/index.cfm?", "https://172.20.208.83/index.cfm?",
-    "https://172.20.208.84/index.cfm"
+var hostTierV4 = [//"Array of Hosts Tier 4 V"
 ];
 
 
@@ -709,37 +697,6 @@ describe('Availability Tests', function() {
 
 
 
-/*it('should fill Step 3 Information', function () {
-
-       LoginPage.title.selectByValue('MR');
-       LoginPage.gender.selectByValue('M');
-       LoginPage.address.setValue('Arizona Street');
-       LoginPage.firstName.setValue('Luis');
-       LoginPage.lastName.setValue('Honduras');
-       LoginPage.city.setValue('Arizona')
-       LoginPage.country.selectByValue('USA');
-       LoginPage.state.selectByValue('AZ');
-       LoginPage.zip.setValue('85001');
-       LoginPage.phone.setValue('6025550138');
-       LoginPage.email.setValue('lespinoza@sanservices.hn');
-       LoginPage.birthMonth.selectByValue('5');
-       LoginPage.birthDay.selectByValue('20');
-       LoginPage.birthYear.selectByValue('1990');
-       LoginPage.adult1Title.selectByValue('MRS');
-       LoginPage.adult1Name.setValue('Luisa');
-       LoginPage.adult1LastName.setValue('Honduras');
-       LoginPage.adult1Gender.selectByValue('F');
-       LoginPage.adult1BirthMonth.selectByValue('7');
-       LoginPage.adult1BirthDay.selectByValue('25');
-       LoginPage.adult1BirthYear.selectByValue('1991');
-       browser.submitForm('#guestinfoForm');
-
-
-
-
-
-
-    });*/
 
 
 
